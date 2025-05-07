@@ -4,8 +4,7 @@ from random import randint
 
 
 def ran(a, b):  # должно приходить 2 значения a и b, функцию назвали ran
-    return tuple(randint(a, b) for i in range(
-        10))  # чтобы пропало подчёркивание, делаем возврат в кортеж - return tuple (чтобы он формировал два запроса на 10 элементов).
+    return tuple(randint(a, b) for i in range(10))
 
 
 tpl1 = ran(0, 5)  # это кортеж, функцию назвали tpl1
